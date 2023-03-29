@@ -8,6 +8,8 @@ import Time from './element/Time';
 import MovieList from './movies/MovieList';
 import TestComp from './lifecycle/TestComp';
 import CalculateComp from './hook/CalculateComp';
+import MemberList from './list/MemberList';
+import LightDarkMode from './context/LightDarkMode';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -39,9 +41,23 @@ import CalculateComp from './hook/CalculateComp';
 //   document.getElementById('root')
 // )
 
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <CalculateComp />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// )
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <MemberList />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// )
+
 ReactDOM.render(
   <React.StrictMode>
-    <CalculateComp />
+    <LightDarkMode />
   </React.StrictMode>,
   document.getElementById('root')
 )
