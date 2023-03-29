@@ -7,6 +7,7 @@ import Course from './jsx/Course';
 import Time from './element/Time';
 import MovieList from './movies/MovieList';
 import TestComp from './lifecycle/TestComp';
+import CalculateComp from './hook/CalculateComp';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -31,13 +32,19 @@ import TestComp from './lifecycle/TestComp';
 //   document.getElementById('root')
 // )
 
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <TestComp />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// )
+
 ReactDOM.render(
   <React.StrictMode>
-    <TestComp />
+    <CalculateComp />
   </React.StrictMode>,
   document.getElementById('root')
 )
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
