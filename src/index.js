@@ -1,12 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Course from './jsx/Course';
-import Time from './element/Time';
-import MovieList from './movies/MovieList';
-import TestComp from './lifecycle/TestComp';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Course from "./jsx/Course";
+import Time from "./element/Time";
+import MovieList from "./movies/MovieList";
+import TestComp from "./lifecycle/TestComp";
+import MyButton from "./eventhandler/MyButton";
+import Header from "./header/Header";
 import CalculateComp from './hook/CalculateComp';
 import MemberList from './list/MemberList';
 import LightDarkMode from './context/LightDarkMode';
@@ -55,12 +57,30 @@ import LightDarkMode from './context/LightDarkMode';
 //   document.getElementById('root')
 // )
 
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <MyButton />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+
+//ReactDOM.render(
+ // <React.StrictMode>
+ //   <Header />
+ // </React.StrictMode>,
+ // document.getElementById("root")
+//);
+
 ReactDOM.render(
   <React.StrictMode>
     <LightDarkMode />
   </React.StrictMode>,
   document.getElementById('root')
 )
+
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
